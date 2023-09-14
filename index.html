@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <style type="text/css">
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: #ebecf0;
+                display: flexbox;
+                font-family: 'Raleway', sans-serif;
+            }
+            #wholeBody {
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                flex-grow: 1;
+
+            }
+            #first {
+                top: 0px;
+                width: 100%;
+                height: 100px;
+                background-color: white;
+            }
+            #text {
+                padding: 10px;
+                height: 100px;
+            }
+            h6 {
+                margin: 0;
+                position: static;
+                padding-bottom: 8px;
+                font-weight: lighter;
+            }
+            h1 {
+                position: static;
+                margin: 0;
+            }
+            #bodyPart {
+                width: 100%;
+            }
+            #comment {
+                position: fixed;
+                bottom: 0px;
+                background-color: white;
+                width: 100%;
+                height: 60px;
+            }
+            form {
+                height: 60px;
+                width: 100%;
+                position: static;
+                padding: 20px 20px 20px 50px;
+            }
+            #commentSection {
+                width: 70%;
+            }
+            #button {
+                color: blue;
+            }
+       
+            .whole {
+                width: 100%;
+                height: 80px;
+                justify-content: flex-start;
+                margin: 25px 10px 10px 10px;
+                background-color: white;
+                
+            }
+            .image img {
+                float: left;
+                height: 80px;
+                width: auto;
+            }
+            .n {
+                font-weight: lighter;
+            }
+            .com {
+                font-size: 35px;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="top">
+        <div id="wholeBody">
+            <div id="first">
+                <div id="text">
+                <h6>WhySoSerious45</h6>
+                <h1>Trying to decide a career path? Programming is the move. Change my mind.</h1>
+                </div>
+            </div>
+            <div id="bodyPart">
+                <div id="postBox">
+
+                </div>
+            </div>
+            <div id="comment">
+                <div id="theForm">
+                <form>
+                    <input type="text" id="displayName" placeholder="Display Name">
+                    <input type="text" id="commentSection" placeholder="Comment" value=" ">
+                    <input type="submit" id="button" vaule="Submit">
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    </body>
+</html>
